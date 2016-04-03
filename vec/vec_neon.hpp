@@ -239,6 +239,7 @@ public:
                 return vgetq_lane_f32(data_, 3);
         }
         assert(false);
+        return 0;
     }
     /* @} */
 
